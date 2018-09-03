@@ -18,12 +18,12 @@ function cardValidator(star){
     let algLuhn = i % 2 == 0 ? currentNum : currentNum * 2 <= 9 ? currentNum * 2 : currentNum * 2 - 9;
     numberSum.push(algLuhn);
   }
-   console.log(numberSum);
+  // console.log(numberSum);
   var sum = numberSum.reduce((acum, num) => acum + num)
-  console.log(sum);
+  // console.log(sum);
   //Comprovar se o cartão é válido;
   var isValidCard = sum % 10 === 0 ? true : false;
-  console.log(isValidCard);
+  // console.log(isValidCard);
 }
-cardValidator(5256631727985881);
+// cardValidator(5256631727985881);
 // cardValidator("sgfakhfjasfa");
