@@ -1,0 +1,23 @@
+{
+  "name": "validcardlib",
+  "version": "1.0.0",
+  "description": "A Library to validade credit card numbers.",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "\u0016cardValidator()"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solangealmn/validCardLib.git"
+  },
+  "author": "Solange Nalão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solangealmn/validCardLib/issues"
+  },
+  "homepage": "https://github.com/solangealmn/validCardLib#readme"
+}
