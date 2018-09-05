@@ -1,4 +1,4 @@
-# Verificador de números de cartão de crédito v.1.0.0
+# Verificador de números de cartão de crédito v.1.0.1
 
 **Esta biblioteca se destina à validar números de cartões de crédito, para uso em aplicações web.**
 A versão atual é capaz de verificar se o número do cartão é válido ou não.
