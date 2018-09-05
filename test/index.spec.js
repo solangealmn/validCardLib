@@ -12,7 +12,7 @@ describe("cardValidator", function() {
   //"describe.only" roda apenas este teste "describe.skip" ou "x" para pular um teste
   describe("Quando nao houver parametro.", function() {
     it("Deve lancar um erro.", function() {
-      var badFn = function () { card.cardValidator("") };
+      var badFn = function () { card.cardValidator(null) };
       expect(badFn).to.throw('missingParameter');
     });
   });

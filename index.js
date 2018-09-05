@@ -9,7 +9,7 @@ module.exports.cardValidator = function cardValidator(star){
     if ( isNaN(star)) {
         throw new TypeError("stringIsInvalidInput");
     }
-    if ( star === " " ){
+    if ( star === null || star === " " ){
         throw new TypeError("missingParameter");
     }
     //Transforma os números em string.
