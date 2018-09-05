@@ -28,10 +28,14 @@ describe("cardValidator", function() {
       expect(badFn).to.throw('DoesNotHaveTheExpectedLength');
     });
   });
-  describe("Quando o numero for um inteiro e for um cartão inválido.", function() {
-    it("Deve lancar um erro.", function() {
-      var badFn = function () { card.cardValidator(15486) };
-      expect(badFn).to.throw('DoesNotHaveTheExpectedLength');
+  describe("Quando o numero for um inteiro e for um cartão válido.", function() {
+    it("Deve retornar true.", function() {
+      expect(card.cardValidator(36490102462661)).to.equal(true);
+    });
+  });
+  describe("Quando o numero for um inteiro e for um cartão válido.", function() {
+    it("Deve retornar false.", function() {
+      expect(card.cardValidator(36490102462662)).to.equal(false);
     });
   });
 });
