@@ -1,4 +1,4 @@
-# Verificador de números de cartão de crédito v.1.0.1
+# Verificador de números de cartão de crédito v.1.0.2
 
 **Esta biblioteca se destina à validar números de cartões de crédito, para uso em aplicações web.**
 A versão atual é capaz de verificar se o número do cartão é válido ou não.
@@ -6,7 +6,7 @@ A versão atual é capaz de verificar se o número do cartão é válido ou não
 
 ## Os métodos utilizados na biblioteca são:
 
-#### **returnsWritten(num);**
+#### **cardValidator(numb);**
 
 Exemplo de uso:
 
@@ -18,7 +18,7 @@ $node
 ```
 
 
-## versão 1.0.1
+## versão 1.0.2
 
 - funcionalidades: verifica se o número do cartão é válido ou não.
 
@@ -34,5 +34,5 @@ $node
 #### versão 2.0.0 (previsão outubro/2018)
 - implementação da opção de mostrar a bandeira do cartão.
 
-#### versão 1.0.1 (released)
+#### versão 1.0.2 (released)
 - funcionalidades: verifica se o número do cartão é válido ou não.

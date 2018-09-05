@@ -1,11 +1,11 @@
-module.exports.cardValidator = function cardValidator(star){
-    if ( isNaN(star)) {
+module.exports.cardValidator = function cardValidator(numb){
+    if ( isNaN(numb)) {
         throw new TypeError("stringIsInvalidInput");
     }
-    if ( star === null || star === " " ){
+    if ( numb === null || numb === " " ){
         throw new TypeError("missingParameter");
     }
-    let stringNumCard = star.toString();
+    let stringNumCard = numb.toString();
     if ( stringNumCard.length > 16 || stringNumCard.length < 14 ){
         throw new TypeError("DoesNotHaveTheExpectedLength");
     }
