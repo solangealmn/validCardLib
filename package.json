@@ -4,11 +4,15 @@
   "description": "A Library to validade credit card numbers.",
   "main": "index.js",
   "dependencies": {
-    "chai": "^4.1.2"
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "nyc": "^13.0.1"
+  },
   "scripts": {
-    "test": "\u0016cardValidator()"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
